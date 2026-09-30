@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rupesh Kumar GV — C# and ASP.NET Core developer building web applications, APIs, business platforms and mobile solutions." />
+    <meta name="theme-color" content="#08111f" />
+    <title>Rupesh Kumar GV | C# .NET Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="page-bg"></div>
+    <div class="page-bg"></div>
+
+    <header class="site-header" id="top">
+        <div class="container nav-wrap">
+            <a class="brand" href="#home" aria-label="Rupesh Kumar GV home">
+                <span class="brand-mark">&lt;/&gt;</span>
+                <span>Rupesh<span class="brand-dot">.</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="nav" id="mainNav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#services">Services</a>
+                <a href="#contact" class="nav-cta">Let's Talk</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>
+                <strong>Rupesh Kumar GV</strong>
+                <p>C# / ASP.NET Core Developer</p>
+            </div>
+            <div class="footer-links">
+                <a href="mailto:gvrupeshkumar1@gmail.com">Email</a>
+                <a href="https://wa.me/918762711184" target="_blank" rel="noopener">WhatsApp</a>
+                <a href="https://www.linkedin.com/in/rupesh-kumar-82062016b/" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </div>
+        <div class="container copyright">© @DateTime.Now.Year Rupesh Kumar GV · C# / ASP.NET Core Developer</div>
+    </footer>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
