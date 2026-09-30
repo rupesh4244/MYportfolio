@@ -1,0 +1,6 @@
+wwwroot\css\site.css
+wwwroot\images\physiocare\physiocare-home.png
+wwwroot\images\physiocare\physiocare-services.png
+wwwroot\js\site.js
+C:\Users\Rupesh\Desktop\Rup\RupeshKumarGV_ProfessionalPortfolio\wwwroot\css\site.css
+C:\Users\Rupesh\Desktop\Rup\RupeshKumarGV_ProfessionalPortfolio\wwwroot\js\site.js
